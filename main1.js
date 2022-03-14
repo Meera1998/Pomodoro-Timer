@@ -517,3 +517,15 @@ document.querySelector(".plus-btn2").addEventListener("click", function () {
 })
 
 play.addEventListener('click' , runTimer)
+
+document.querySelector(".minus-btn2").addEventListener("click", function () {
+  valueCount = document.getElementById("quantity2").value;
+  valueCount--;
+  console.log(valueCount,'plus brnnn')
+  if (valueCount <= 1) {
+    valueCount = 1
+  }
+  document.getElementById("quantity2").value = valueCount;
+
+
+})
