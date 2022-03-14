@@ -201,6 +201,10 @@ instance.open();
 
 function startTimer(){
   audio.pause()
+	if(play.innerText == 'RESTART'){
+      
+      setAttributes();
+    }
   // color play button Red
   parent.style.display = 'block';
   child.style.display = 'block';
