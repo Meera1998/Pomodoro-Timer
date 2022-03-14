@@ -93,14 +93,17 @@ function setAttributes(){
 
   console.log({timeSettings})
 
-  if(play.innerText== 'PAUSE'){
-    startTimer();
-    isStartClicked = true ;
-  }
+  
 child.style.display = "none";
   parent.style.display = "none";
   ring.style.background = `conic-gradient(#161932 0deg 360deg)` ;
 //Timer.start();
+	if(play.innerText== 'PAUSE'){
+    startTimer();
+    isStartClicked = true ;
+	child.style.display = "block";
+parent.style.display = "block";
+  }
   modal.style.display = "none";
 }
 
