@@ -74,6 +74,12 @@ body{
     justify-content: center;
     z-index: 2;
   }
+.timer-button:hover{
+   cursor: pointer;
+}
+.timer-setting-img{
+  cursor: pointer;
+}
   .timer-tab .tab .active{
     background-color: var(--currentcolor) !important;
     color: #1E213F !important;
