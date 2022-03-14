@@ -176,7 +176,8 @@ ul.timer-tab li:first-child {
     top: 3%;
     z-index: 3;
     border-radius: 25px;
-    left: 4%;
+    left: 50%;
+  transform: translate(-50%);
   /* top: 6% !important;
   bottom: 5.31%;  */
   background: #FFFFFF;
@@ -538,7 +539,7 @@ margin: 0;
     }
     .modal1{
       top: 11%;
-      left: 9%;
+      left: 50%;
     }
   }
 
@@ -642,7 +643,7 @@ margin: 0;
 }
 .modal1{
   top: 0%;
-  left: 1.5%;
+  left: 50%;
   z-index: 20;
 }
 .time p{
