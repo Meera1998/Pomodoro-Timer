@@ -97,7 +97,8 @@ function setAttributes(){
     startTimer();
     isStartClicked = true ;
   }
-
+child.style.display = "none";
+  parent.style.display = "none";
   ring.style.background = `conic-gradient(#161932 0deg 360deg)` ;
 //Timer.start();
   modal.style.display = "none";
